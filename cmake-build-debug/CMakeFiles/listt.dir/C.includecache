@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jaime.JS/Documents/Desarrollos/C & C++/C/listt/biblioteca/list.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+stdbool.h
+-
+list.h
+C:/Users/Jaime.JS/Documents/Desarrollos/C & C++/C/listt/biblioteca/list.h
+
+C:/Users/Jaime.JS/Documents/Desarrollos/C & C++/C/listt/biblioteca/list.h
+stdbool.h
+-
+
+C:/Users/Jaime.JS/Documents/Desarrollos/C & C++/C/listt/main.c
+stdio.h
+-
+biblioteca/list.h
+C:/Users/Jaime.JS/Documents/Desarrollos/C & C++/C/listt/biblioteca/list.h
+
