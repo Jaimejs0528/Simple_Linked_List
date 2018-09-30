@@ -13,11 +13,17 @@ int main(int argc, char* argv[]) {
     insertIntoFirst("laura",32);
     insertIntoFirst("juan", 13);
     printList();
-    isSort(false);
+    isSort();
     deleteNode(3);
-    sortList(false);
+//    printf("is short %d\n",getSortSense());
+    sortList();
+    isSort();
     printList();
-    isSort(false);
+    isSort();
+    setDescendant();
+    sortList();
+    printList();
+    isSort();
     freeList();
     return 0;
 }
