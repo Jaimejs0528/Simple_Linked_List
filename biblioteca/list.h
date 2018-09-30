@@ -14,13 +14,17 @@ struct nodo
     struct nodo* liga;
 };
 
+void setAscendant();
+void setDescendant();
+bool getSortSense();
 void printList();
-int insertIntoFirst(char* nombre,int id);
-int insertSortDesc(char *nombre, int id);
-int insertSortAsc(char *nombre, int id);
+int insertIntoFirst(char* nombre, int id);
+int insertSort(char *nombre, int id);
+int insertSortChangeSense(char *nombre, int id, bool asc);
 int deleteNode(int id);
 int deleteNodeByStruct(struct nodo *toDelete, struct nodo *previousNode);
-void sortList(bool asc);
-bool isSort(bool asc);
+void sortList();
+void sortListSpecifyingSense(bool asc);
+bool isSort();
 void freeList();
 #endif //LISTT_LIST_H
